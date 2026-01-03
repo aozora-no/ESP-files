@@ -6,12 +6,12 @@ import {
   signInWithEmailAndPassword,
   sendEmailVerification,
   sendPasswordResetEmail,
-} from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+} from "https://www.gstatic.com/firebasejs/12.7.0/firebase-auth.js";
 import {
   getFirestore,
   setDoc,
   doc,
-} from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+} from "https://www.gstatic.com/firebasejs/12.7.0/firebase-firestore.js";
 
 // Firebase config
 const firebaseConfig = {
