@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OS Algorithm Simulator</title>
+  <link rel="stylesheet" href="style/login.css">
+  <link rel="icon" type="image/png" href="style/icons/top_logo.png">
+  <link rel="stylesheet" href="style/homepage.css">
+  <link rel="stylesheet" href="style/topbar.css">
+</head>
+<body>
+  <div id="global-topbar"></div>
+  <div class="video-container">
+    <video autoplay loop muted playsinline>
+      <source src="style/libs/bg.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <main>
+    <div class="logo-title">
+      <img src="style/icons/ams_logo.png" alt="Logo">
+      <span>OS Algorithm Simulator</span>
+    </div>
+    <p>Select below to open its simulator.</p>
+
+    <div class="algo-grid">
+      <a href="cpu_scheduling.html" class="algo-card">
+        <h3>CPU Scheduling</h3>
+        <p>Simulate FCFS and SJF with Gantt chart, waiting time, and turnaround time.</p>
+      </a>
+
+      <a href="bankers-algorithm.html" class="algo-card">
+        <h3>Deadlock / Banker's</h3>
+        <p>Experiment with resource allocation, safe/unsafe states, and deadlock.</p>
+      </a>
+
+      <a href="page_replacement.html" class="algo-card">
+        <h3>Page Replacement</h3>
+        <p>Compare FIFO, LRU, and Optimal page replacement with step-by-step trace.</p>
+      </a>
+    </div>
+  </main>
+  <script src="backend/topbar.js"></script>
+</body>
+</html>
