@@ -1,5 +1,5 @@
 // Import Firebase SDK modules
-import { initializeApp } from "firebase/app";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
 import {
   getAuth,
   createUserWithEmailAndPassword,
