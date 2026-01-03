@@ -13,7 +13,7 @@ import {
   doc,
 } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
 
-// Firebase config
+// Firebase confi
 const firebaseConfig = {
   apiKey: "AIzaSyBRwMI9Hf8vVjC3nc4MdqJA8ggmsfhCxPM",
   authDomain: "esp32-8afec.firebaseapp.com",
